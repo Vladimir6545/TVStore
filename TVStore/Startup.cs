@@ -34,10 +34,10 @@ namespace TVStore
                 roleManager.Create(role);
                 //The man
                 var user = new ApplicationUser();
-                user.UserName = "SuperHero";
-                user.Email = "example@gmail.com";
+                user.UserName = "SuperHero@gmail.com";
+                user.Email = "SuperHero@gmail.com";
 
-                string userPWD = "123";
+                string userPWD = "035K44v79";
 
                 var chkUser = UserManager.Create(user, userPWD);
 
